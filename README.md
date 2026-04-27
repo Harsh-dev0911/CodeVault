@@ -30,7 +30,7 @@ Since the Node `/backend` is configured to inherently serve the `/frontend` asse
 ```bash
 cd backend
 npm install
-node server.js
+nodemon server.js
 ```
 
 Then visit `http://localhost:5000/` in your browser. You will be greeted by `index.html` allowing you to securely log in.
