@@ -58,14 +58,14 @@ async function apiFetch(endpoint, options = {}) {
 // Authentication Check
 function checkAuth() {
     if (!localStorage.getItem('token')) {
-        window.location.href = '/index.html';
+        window.location.href = '/';
     }
 }
 
 function logout() {
     localStorage.removeItem('token');
     localStorage.removeItem('user');
-    window.location.href = '/index.html';
+    window.location.href = '/';
 }
 
 function setupSidebar() {

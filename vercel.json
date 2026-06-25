@@ -10,6 +10,10 @@
       "destination": "/frontend/index.html"
     },
     {
+      "source": "/index.html",
+      "destination": "/frontend/index.html"
+    },
+    {
       "source": "/register.html",
       "destination": "/frontend/register.html"
     },
